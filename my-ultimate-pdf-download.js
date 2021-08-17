@@ -26,5 +26,5 @@ function openPDF(){
     doc.save(`${this.Case} Report - ${this.tenant_name} - [${date}]`);
     document.body.removeChild(canvas);
     })
-    DATA.style.padding = "10px";
+    DATA.style.padding = "0px";
   };
